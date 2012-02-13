@@ -1,0 +1,60 @@
+// Place all the styles related to the Pagina controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+// Variable Definitions
+
+$page-width:    1000px;
+$primary-color: #000000;
+$fucsia: #ec11a5;
+// Global Attributes
+
+body {
+  text-align:center;
+  background: $primary-color;
+  color: $fucsia;
+  font: {
+    family: 'Allura', cursive;
+    weight: bold;
+  }
+}
+
+
+.general {
+  margin: 0 auto 0 auto;
+  width: $page-width;
+
+  .banner {
+    text-align:center;
+    height: 100px;
+    font-size:70px;
+  }
+  .menu {
+    height: 80px;
+    nav{
+      text-align:center;
+      ul{
+        display:inline-block; 
+        padding: 0;
+        li{
+          display: inline;
+          a{
+            font-size:30px;  
+            text-decoration: none;  
+            float:left;  
+            padding: 20px;  
+            background-color: $fucsia;  
+            color: #fff;  
+          }
+        }
+      }
+    }
+  }
+  .contenido {
+    width: $page-width;
+    min-height: 400px;
+  }
+  .pie {
+    font-size:20px;
+    height: 50px;
+  }
+}
