@@ -15,10 +15,10 @@
   <div class="menu">
   <nav>
     <ul id ="vertical_menu">
-      <li><%= link_to "Peluqueria", :controller => "pagina", :action => "inicio" %></li>
-      <li><%= link_to "Galeria", :controller => "pagina", :action => "galeria" %></li>
-      <li><%= link_to "Servicios", :controller => "pagina", :action => "servicios" %></li>
-      <li><%= link_to "Contacto", :controller => "pagina", :action => "contacto" %></li>
+      <li><%= link_to "Peluqueria", {:controller => "pagina", :action => "inicio"} ,:class => (@tab=="inicio")? "tab-actual":"tab-no-actual"%></li>
+      <li><%= link_to "Galeria", {:controller => "pagina", :action => "galeria"} , :class=> (@tab=="galeria")? "tab-actual":"tab-no-actual"%></li>
+      <li><%= link_to "Servicios", {:controller => "pagina", :action => "servicios"} , :class=>(@tab=="servicios")? "tab-actual":"tab-no-actual"%></li>
+      <li><%= link_to "Contacto", {:controller => "pagina", :action => "contacto"} , :class=>(@tab=="contacto")? "tab-actual":"tab-no-actual" %></li>
     </ul>
   </nav>
   </div>

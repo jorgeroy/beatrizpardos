@@ -3,15 +3,24 @@
 // You can use Sass (SCSS) here: http://sass-lang.com/
 // Variable Definitions
 
-$page-width:    1000px;
-$primary-color: #000000;
+$ancho-pagina:    1000px;
+$color-principal: #000000;
 $fucsia: #ec11a5;
+$fucsia-claro: lighten($fucsia,20%);
 $redondeo: 20px;
+$ancho-pestaña: 140px;
+$alto-menu:35px;
 // Global Attributes
 
 body {
   text-align:center;
-  background: $primary-color;
+  background: linear-gradient(top, $color-principal , darken($fucsia, 20%));
+  background: -moz-linear-gradient(top, $color-principal , darken($fucsia, 20%));
+  background: -ms-linear-gradient(top, $color-principal , darken($fucsia, 20%));
+  background: -webkit-linear-gradient(top, $color-principal , darken($fucsia,20%));
+  background: -khtml-linear-gradient(top, $color-principal , darken($fucsia, 20%));
+
+  
   color: $fucsia;
   font: {
     family: 'Allura', cursive;
@@ -22,7 +31,7 @@ body {
 
 .general {
   margin: 0 auto 0 auto;
-  width: $page-width;
+  width: $ancho-pagina;
 
   .banner {
     text-align:center;
@@ -30,7 +39,8 @@ body {
     font-size:70px;
   }
   .menu {
-    height: 80px;
+    padding:0px;
+    height: $alto-menu;
     nav{
       text-align:center;
       ul{
@@ -39,24 +49,37 @@ body {
         li{
           display: inline;
           a{
-            border-radius: $redondeo;
-            -ms-border-radius: $redondeo;
-            -moz-border-radius: $redondeo;
-            -webkit-border-radius: $redondeo;
-            -khtml-border-radius: $redondeo;
-
-            margin:15px;
-            font-size:30px;  
+            &:hover{
+                background-color: $fucsia-claro;
+              }
+            border-top-right-radius: $redondeo;
+            -ms-border-top-right-radius: $redondeo;
+            -moz-border-top-right-radius: $redondeo;
+            -webkit-border-top-right-radius: $redondeo;
+            -khtml-border-top-right-radius: $redondeo;
+            border-top-left-radius: $redondeo;
+            -ms-border-top-left-radius: $redondeo;
+            -moz-border-top-left-radius: $redondeo;
+            -webkit-border-top-left-radius: $redondeo;
+            -khtml-border-top-left-radius: $redondeo;
+            height:$alto-menu + 5;
+            width: $ancho-pestaña;
+            margin:0px 20px 0px 20px;
+            font-size:25px;  
             text-decoration: none;  
             float:left;  
-            background-color: $fucsia;  
             color: #fff;  
           }
         }
       }
     }
   }
-
+  .tab-actual{
+    background-color: $fucsia-claro;
+  }
+  .tab-no-actual{
+    background-color: $fucsia;  
+  }
   .redondeado
   {
     border-radius: $redondeo;
@@ -67,9 +90,15 @@ body {
   }
 
   .contenido {
-    background:$fucsia;
-    width: $page-width;
-    min-height: 400px;
+    box-shadow: 10px 10px 10px $color-principal;
+    -ms-box-shadow: 10px 10px 10px $color-principal;
+    -khtml-box-shadow: 10px 10px 10px $color-principal;
+    -webkit-box-shadow: 10px 10px 10px $color-principal;
+    -moz-box-shadow: 10px 10px 10px $color-principal;
+    background:$fucsia-claro;
+    width: $ancho-pagina;
+    min-height: 500px;
+    color: #fff;
   }
   .pie {
     font-size:20px;

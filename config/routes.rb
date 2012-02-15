@@ -1,13 +1,9 @@
 Beatrizpardos::Application.routes.draw do
-  get "pagina/inicio"
-
-  get "pagina/galeria"
-
-  get "pagina/servicios"
-
-  get "pagina/contacto"
-
-  root :to => 'pagina#inicio'
+  get "inicio" => 'pagina#inicio'
+  get "galeria" => 'pagina#galeria'
+  get "servicios" => 'pagina#servicios'
+  get "contacto" => 'pagina#contacto'
+  root :to => redirect("/inicio")
 
   # The priority is based upon order of creation:
   # first created -> highest priority.
