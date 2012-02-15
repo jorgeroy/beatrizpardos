@@ -6,6 +6,7 @@
 $page-width:    1000px;
 $primary-color: #000000;
 $fucsia: #ec11a5;
+$redondeo: 20px;
 // Global Attributes
 
 body {
@@ -38,10 +39,16 @@ body {
         li{
           display: inline;
           a{
+            border-radius: $redondeo;
+            -ms-border-radius: $redondeo;
+            -moz-border-radius: $redondeo;
+            -webkit-border-radius: $redondeo;
+            -khtml-border-radius: $redondeo;
+
+            margin:15px;
             font-size:30px;  
             text-decoration: none;  
             float:left;  
-            padding: 20px;  
             background-color: $fucsia;  
             color: #fff;  
           }
@@ -49,7 +56,18 @@ body {
       }
     }
   }
+
+  .redondeado
+  {
+    border-radius: $redondeo;
+    -ms-border-radius: $redondeo;
+    -moz-border-radius: $redondeo;
+    -webkit-border-radius: $redondeo;
+    -khtml-border-radius: $redondeo;
+  }
+
   .contenido {
+    background:$fucsia;
     width: $page-width;
     min-height: 400px;
   }
