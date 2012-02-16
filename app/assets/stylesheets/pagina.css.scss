@@ -14,12 +14,10 @@ $alto-menu:35px;
 
 body {
   text-align:center;
-  background: linear-gradient(top, $color-principal , darken($fucsia, 20%));
-  background: -moz-linear-gradient(top, $color-principal , darken($fucsia, 20%));
-  background: -ms-linear-gradient(top, $color-principal , darken($fucsia, 20%));
-  background: -webkit-linear-gradient(top, $color-principal , darken($fucsia,20%));
-  background: -khtml-linear-gradient(top, $color-principal , darken($fucsia, 20%));
-
+  background: $color-principal; /* old browsers */
+  background: -moz-linear-gradient(to bottom, $color-principal, darken($fucsia,20%)); /* firefox */
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,$color-principal), color-stop(100%,darken($fucsia,20%))); /* webkit */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr= '#000000' , endColorstr= '#ec11a5' ,GradientType=0 ); /* ie */
   
   color: $fucsia;
   font: {
@@ -41,7 +39,6 @@ body {
   .menu {
     padding:0px;
     height: $alto-menu;
-    nav{
       text-align:center;
       ul{
         display:inline-block; 
@@ -53,16 +50,8 @@ body {
                 background-color: $fucsia-claro;
               }
             border-top-right-radius: $redondeo;
-            -ms-border-top-right-radius: $redondeo;
-            -moz-border-top-right-radius: $redondeo;
-            -webkit-border-top-right-radius: $redondeo;
-            -khtml-border-top-right-radius: $redondeo;
             border-top-left-radius: $redondeo;
-            -ms-border-top-left-radius: $redondeo;
-            -moz-border-top-left-radius: $redondeo;
-            -webkit-border-top-left-radius: $redondeo;
-            -khtml-border-top-left-radius: $redondeo;
-            height:$alto-menu + 5;
+            height:$alto-menu+5;
             width: $ancho-pestaña;
             margin:0px 20px 0px 20px;
             font-size:25px;  
@@ -71,7 +60,6 @@ body {
             color: #fff;  
           }
         }
-      }
     }
   }
   .tab-actual{
