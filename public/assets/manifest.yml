@@ -1,7 +1,5 @@
 ---
+banner.png: banner-9767d722e55faef47c39fa0b0a758354.png
+pie.png: pie-9f54bfb2dee1bcc351ea9cff223e082c.png
 application.js: application-cf995f3e47b4cf829f159fb0c123537d.js
-jquery.js: jquery-b484da4970cf2beeafe196c20968cd74.js
-modernizr-1.7.min.js: modernizr-1.7.min-fd0596859d3550542d6cbf1ddbcf2da2.js
-pagina.js: pagina-e26abca28c84b3e2d2b7dd4cf480c702.js
-application.css: application-6c0aa5e16c6c29e41857738e2815e433.css
-pagina.css: pagina-6c0aa5e16c6c29e41857738e2815e433.css
+application.css: application-c2701004141123a9dab17332466838fd.css

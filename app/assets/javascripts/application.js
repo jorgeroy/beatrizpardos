@@ -6,3 +6,4 @@
 //
 //= require jquery
 //= require_tree .
+//= modernizr-1.7.min
