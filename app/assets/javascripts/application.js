@@ -5,6 +5,7 @@
 // the compiled file.
 //
 //= require jquery-1.7.1
-//= require_tree .
 //= require jquery.nivo.slider
 //= require modernizr-1.7.min
+//= require_tree .
+
