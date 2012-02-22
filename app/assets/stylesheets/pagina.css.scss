@@ -87,6 +87,10 @@ body {
     width: $ancho-pagina;
     min-height: 500px;
     color: #fff;
+    .wrapper {
+      width: 900px;
+      height: 358px;
+    }
   }
   .pie {
     font-size:20px;
