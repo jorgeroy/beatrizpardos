@@ -4,10 +4,10 @@
 // It's not advisable to add code directly here, but if you do, it'll appear at the bottom of the
 // the compiled file.
 
+//= require jquery-1.7.1
 //= require jquery.nivo.slider
 //= require modernizr-1.7.min
 //= require shadowbox
 
-//= require jquery-1.7.1
 //= require_tree .
 

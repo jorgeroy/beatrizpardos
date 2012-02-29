@@ -1,10 +1,24 @@
 ---
 arrows.png: arrows-cddf7535dac4df32dd66bacacf5c1911.png
+background.jpg: background-190f0609bc5e621d22b6d4e93879aeb6.jpg
+banner.png: banner-9767d722e55faef47c39fa0b0a758354.png
 bullets.png: bullets-ef89ea99141fdbbb5f7392aa23568232.png
+galeria/DSC06392.jpg: galeria/DSC06392-8e73ddcde8e314e448ec20802fcce17f.jpg
+galeria/DSC06423.jpg: galeria/DSC06423-f957468f79ffba3fdf9877ac7ec66941.jpg
+galeria/DSC06430.jpg: galeria/DSC06430-400d24d355025ac78af83e749c8f75b5.jpg
+galeria/thumbnail/DSC06392.jpg: galeria/thumbnail/DSC06392-2fc18a0f0d81aef965c4480ac192930a.jpg
+galeria/thumbnail/DSC06423.jpg: galeria/thumbnail/DSC06423-61c8c03dab7a771d04c0958ce324716c.jpg
+galeria/thumbnail/DSC06430.jpg: galeria/thumbnail/DSC06430-d7fb585fdfb33b6a9a40b84c9d3cd527.jpg
 loading.gif: loading-e26c97d156b7747cd4d45581116dc1ff.gif
 nemo.jpg: nemo-da0ea2e08951f132d2619f510adb31b5.jpg
+pie.png: pie-9f54bfb2dee1bcc351ea9cff223e082c.png
 toystory.jpg: toystory-f19e20888a90b81e15d8933ba406caf5.jpg
 up.jpg: up-ad0966349b01c23014f9d964eb58341d.jpg
 walle.jpg: walle-91861013a887d9d2421007bd808243e1.jpg
-application.js: application-ec3cd19389b60db26d8386682cfe5919.js
-application.css: application-22070584e03069dc6d8cf48025f4afd8.css
+application.js: application-a475991db0cb787e335c8662722bf07f.js
+application.css: application-36b2cbacc43a3e8d1b42f0763b606825.css
+close.png: close-57253e196c9b4009b155ec078341883a.png
+next.png: next-74c9dc2c79888756e9af749af407a9d8.png
+pause.png: pause-2febfd3f3598e0cd3df64aaef27889c1.png
+play.png: play-474294ebb51c658829bedc571f548b5b.png
+previous.png: previous-e98d216a1a6688296104fea626dea3e6.png

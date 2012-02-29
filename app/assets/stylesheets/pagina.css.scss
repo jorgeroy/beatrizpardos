@@ -14,10 +14,11 @@ $alto-menu:35px;
 
 body {
   text-align:center;
-  background: $color-principal; /* old browsers */
-  background: -moz-linear-gradient(to bottom, $color-principal, darken($fucsia,20%)); /* firefox */
-  background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,$color-principal), color-stop(100%,darken($fucsia,20%))); /* webkit */
-  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr= '#000000' , endColorstr= '#ec11a5' ,GradientType=0 ); /* ie */
+  background-image:url('background.jpg'); 
+  //background: $color-principal;
+  //background: -moz-linear-gradient(to bottom, $color-principal, darken($fucsia,20%)); /* firefox */
+  //background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,$color-principal), color-stop(100%,darken($fucsia,20%))); /* webkit */
+  //filter: progid:DXImageTransform.Microsoft.gradient( startColorstr= '#000000' , endColorstr= '#ec11a5' ,GradientType=0 ); /* ie */
   
   color: $fucsia;
   font: {
