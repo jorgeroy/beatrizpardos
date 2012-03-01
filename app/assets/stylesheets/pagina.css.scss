@@ -98,4 +98,11 @@ body {
     font-size:20px;
     height: 50px;
   }
+
+  #precios {
+    margin: 0 auto 0 auto;
+    width: $ancho-pagina - 40;
+    background:lighten($fucsia,25%);
+  }
 }
+
