@@ -13,7 +13,6 @@ $alto-menu:35px;
 // Global Attributes
 
 body {
-  text-align:center;
   background-image:url('background.jpg'); 
   //background: $color-principal;
   //background: -moz-linear-gradient(to bottom, $color-principal, darken($fucsia,20%)); /* firefox */
@@ -33,8 +32,10 @@ body {
   width: $ancho-pagina;
 
   .banner {
-    text-align:center;
-    height: 100px;
+    img{
+      align:middle;
+    } 
+    height: 150px;
     font-size:70px;
   }
   .menu {
@@ -102,7 +103,7 @@ body {
   #precios {
     margin: 0 auto 0 auto;
     width: $ancho-pagina - 40;
-    background:lighten($fucsia,25%);
+    background: lighten($fucsia,25%);
   }
 }
 
