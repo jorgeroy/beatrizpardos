@@ -21,8 +21,7 @@ body {
   
   color: $fucsia;
   font: {
-    family: 'Allura', cursive;
-    weight: bold;
+    family: 'Trebuchet MS', Helvetica, sans-serif;
   }
 }
 
@@ -30,6 +29,7 @@ body {
 .general {
   margin: 0 auto 0 auto;
   width: $ancho-pagina;
+  text-align:center;
 
   .banner {
     img{
@@ -59,7 +59,7 @@ body {
             font-size:25px;  
             text-decoration: none;  
             float:left;  
-            color: #fff;  
+            color: #000;  
           }
         }
     }
@@ -69,6 +69,9 @@ body {
   }
   .tab-no-actual{
     background-color: $fucsia;  
+  }
+  h2{
+    background-color: $fucsia; 
   }
   .redondeado
   {
@@ -88,7 +91,7 @@ body {
     background:$fucsia-claro;
     width: $ancho-pagina;
     min-height: 500px;
-    color: #fff;
+    color: #000;
     #wrapper {
       margin: 0 auto 0 auto;
       width: 900px;
@@ -100,10 +103,36 @@ body {
     height: 50px;
   }
 
-  #precios {
+  .precios {
+    .precio{
+      background: #FFFFFF;
+     border-radius: $redondeo;
+    -ms-border-radius: $redondeo;
+    -moz-border-radius: $redondeo;
+    -webkit-border-radius: $redondeo;
+    -khtml-border-radius: $redondeo;
+
+    }
+    th{
+      font-size:20px; 
+      background: $fucsia;
+    }
+    td{
+      padding:5px;
+    }
     margin: 0 auto 0 auto;
-    width: $ancho-pagina - 40;
-    background: lighten($fucsia,25%);
+    padding: 10px;
+    width: 95%;
+    #width: $ancho-pagina - 40;
+    background: lighten($fucsia,35%);
+  }
+  .derecha{
+    float:right;
+    width:50%;
+  }
+  .izquierda{
+    float:left;
+    width:50%;
   }
 }
 
