@@ -20,9 +20,7 @@ body {
   //filter: progid:DXImageTransform.Microsoft.gradient( startColorstr= '#000000' , endColorstr= '#ec11a5' ,GradientType=0 ); /* ie */
   
   color: $fucsia;
-  font: {
-    family: 'Trebuchet MS', Helvetica, sans-serif;
-  }
+   font-family: 'Princess Sofia', cursive; 
 }
 
 
@@ -90,12 +88,12 @@ body {
     -moz-box-shadow: 10px 10px 10px $color-principal;
     background:$fucsia-claro;
     width: $ancho-pagina;
-    min-height: 500px;
+    min-height: 600px;
     color: #000;
     #wrapper {
       margin: 0 auto 0 auto;
-      width: 900px;
-      height: 358px;
+      width: 700px;
+      height: 467px;
     }
   }
   .pie {
@@ -118,6 +116,7 @@ body {
       background: $fucsia;
     }
     td{
+      font-size:20px; 
       padding:5px;
     }
     margin: 0 auto 0 auto;
