@@ -4,6 +4,6 @@ class ContactoMailer < ActionMailer::Base
   def contacto(senderEmail,message)
     @senderEmail = senderEmail
     @message = message 
-    mail(:to => "jorgeroy@gmail.com", :reply_to => senderEmail, :subject => senderEmail + " solicita informacion")
+    mail(:from => senderEmail,:to => "soporte@beatrizpardos.com", :reply_to => senderEmail, :subject => senderEmail + " solicita informacion")
   end
 end

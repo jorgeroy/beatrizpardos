@@ -1,7 +1,7 @@
 <h1>¿Quiere contactar con nosotros?</h1>
 <%=form_tag(:controller=>"pagina",:action => "contacto") do %>
 <div class="izquierda" id="enviarmensaje">
-<h3>Envienos un mensaje</h3>
+<h3>¿Quiere pedir hora o hacer alguna consulta?</h3>
 <%- flash.each do |key, msg| -%>
 <div id="<%= key %>">
   <p style="float:right;"><%= link_to_function 'X', "Effect.Fade('#{key}')" %></p>
@@ -21,12 +21,12 @@
 <% end %> 
 </div>
 <div class="derecha" id="comollegar">
-<h3>Donde estamos</h3>
-Peluqueria Beatriz Pardos
+<h3>Dónde estamos</h3>
+Peluquería Beatriz Pardos
 <br/>
 Calle Santander 14 duplicado
 <br/>
-50008 ZARAGOZA
+50010 Zaragoza
 <h3>¿Necesita indicaciones?</h3>
 <script src="//www.gmodules.com/ig/ifr?url=http://hosting.gmodules.com/ig/gadgets/file/114281111391296844949/driving-directions.xml&amp;up_fromLocation=&amp;up_myLocations=Calle%20santander%2014%2C%20Zaragoza&amp;up_defaultDirectionsType=&amp;up_autoExpand=&amp;synd=open&amp;w=370&amp;h=400&amp;title=Peluqueria+Beatriz+Pardos&amp;lang=es&amp;country=ALL&amp;border=%23ffffff%7C0px%2C1px+solid+%23ff9977%7C0px%2C1px+solid+%23ffddcc%7C0px%2C1px+solid+%23ff9977%7C0px%2C1px+solid+%23ffddcc%7C0px%2C1px+solid+%23ff9977&amp;output=js"></script>
 </div>

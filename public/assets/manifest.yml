@@ -4,6 +4,9 @@ background.jpg: background-190f0609bc5e621d22b6d4e93879aeb6.jpg
 background2.jpg: background2-fb22faba571d3e84f29d1aba146634bd.jpg
 banner.png: banner-9767d722e55faef47c39fa0b0a758354.png
 bullets.png: bullets-ef89ea99141fdbbb5f7392aa23568232.png
+galeria/DSC06392.jpg: galeria/DSC06392-8e73ddcde8e314e448ec20802fcce17f.jpg
+galeria/DSC06423.jpg: galeria/DSC06423-f957468f79ffba3fdf9877ac7ec66941.jpg
+galeria/DSC06430.jpg: galeria/DSC06430-400d24d355025ac78af83e749c8f75b5.jpg
 galeria/galeria1.jpg: galeria/galeria1-8a50cb75b0da61aab660020a695bbd6b.jpg
 galeria/galeria10.jpg: galeria/galeria10-430b80918eac3490fde8cc9edee9ba68.jpg
 galeria/galeria11.jpg: galeria/galeria11-252fe5eb5c12439f8d25d9066b10ce1a.jpg
@@ -16,6 +19,9 @@ galeria/galeria6.jpg: galeria/galeria6-614b36295b00352fb6f3d393dd6482ac.jpg
 galeria/galeria7.jpg: galeria/galeria7-01d5211244fb7aa4ac781b227e92893d.jpg
 galeria/galeria8.jpg: galeria/galeria8-dfc0959f2717c724796d6b66f41327ca.jpg
 galeria/galeria9.jpg: galeria/galeria9-9549ab0b3f4e032e6bfa0016ff2dfe91.jpg
+galeria/thumbnail/DSC06392.jpg: galeria/thumbnail/DSC06392-2fc18a0f0d81aef965c4480ac192930a.jpg
+galeria/thumbnail/DSC06423.jpg: galeria/thumbnail/DSC06423-61c8c03dab7a771d04c0958ce324716c.jpg
+galeria/thumbnail/DSC06430.jpg: galeria/thumbnail/DSC06430-d7fb585fdfb33b6a9a40b84c9d3cd527.jpg
 galeria/thumbnail/galeria1.jpg: galeria/thumbnail/galeria1-2f4101a8c143065c7018be36ac2c3487.jpg
 galeria/thumbnail/galeria10.jpg: galeria/thumbnail/galeria10-a10245a10e22372e69019591182d3c98.jpg
 galeria/thumbnail/galeria11.jpg: galeria/thumbnail/galeria11-d3b3dcd512015a76d9ea4982c75bf02d.jpg
@@ -41,7 +47,7 @@ toystory.jpg: toystory-f19e20888a90b81e15d8933ba406caf5.jpg
 up.jpg: up-ad0966349b01c23014f9d964eb58341d.jpg
 walle.jpg: walle-91861013a887d9d2421007bd808243e1.jpg
 application.js: application-20df58fc3b27e3bb1af370c54fcd030f.js
-application.css: application-7bdf57de3148e93a5e3c8a13dcbd5fb7.css
+application.css: application-606e10673a463f40352d124bd0500aea.css
 close.png: close-57253e196c9b4009b155ec078341883a.png
 next.png: next-74c9dc2c79888756e9af749af407a9d8.png
 pause.png: pause-2febfd3f3598e0cd3df64aaef27889c1.png

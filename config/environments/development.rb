@@ -35,7 +35,7 @@ Beatrizpardos::Application.configure do
     :port => 587,
     :authentication => :plain,
     :domain => 'beatrizpardos.com',
-    :user_name => 'jorgeroy@gmail.com',
-    :password => 'alma49ciga'
+    :user_name => 'soporte@beatrizpardos.com',
+    :password => 'pichu1984rri'
                 }
 end
