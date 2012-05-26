@@ -95,6 +95,23 @@ body {
       width: 700px;
       height: 467px;
     }
+
+    .thumbnail{
+      padding:15px;
+      margin:5px;
+      background: $fucsia;
+      border-radius: $redondeo;
+      -ms-border-radius: $redondeo;
+      -moz-border-radius: $redondeo;
+      -webkit-border-radius: $redondeo;
+      -khtml-border-radius: $redondeo;
+      box-shadow: 6px 6px 6px $color-principal;
+      -ms-box-shadow: 6px 6px 6px $color-principal;
+      -khtml-box-shadow: 6px 6px 6px $color-principal;
+      -webkit-box-shadow: 6px 6px 6px $color-principal;
+      -moz-box-shadow: 6px 6px 6px $color-principal;
+  }
+
   }
   .pie {
     font-size:20px;
@@ -132,6 +149,45 @@ body {
   .izquierda{
     float:left;
     width:50%;
+  }
+  
+ #enviarmensaje{
+    margin:10px;
+    float:right;
+    width:47%;
+    background: $fucsia;
+     border-radius: $redondeo;
+    -ms-border-radius: $redondeo;
+    -moz-border-radius: $redondeo;
+    -webkit-border-radius: $redondeo;
+    -khtml-border-radius: $redondeo;
+     box-shadow: 6px 6px 6px $color-principal;
+    -ms-box-shadow: 6px 6px 6px $color-principal;
+    -khtml-box-shadow: 6px 6px 6px $color-principal;
+    -webkit-box-shadow: 6px 6px 6px $color-principal;
+    -moz-box-shadow: 6px 6px 6px $color-principal;
+  }
+ 
+  #comollegar{
+    margin:10px;
+    float:left;
+    width:47%;
+    background: $fucsia;
+     border-radius: $redondeo;
+    -ms-border-radius: $redondeo;
+    -moz-border-radius: $redondeo;
+    -webkit-border-radius: $redondeo;
+    -khtml-border-radius: $redondeo;
+     box-shadow: 6px 6px 6px $color-principal;
+    -ms-box-shadow: 6px 6px 6px $color-principal;
+    -khtml-box-shadow: 6px 6px 6px $color-principal;
+    -webkit-box-shadow: 6px 6px 6px $color-principal;
+    -moz-box-shadow: 6px 6px 6px $color-principal;
+    .gadget{
+       width:80%; 
+       margin-left:10%; 
+       margin-right:10%;
+    }
   }
 }
 
